@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Salem Witch Trials</title>
+</head>
+<body>
+	<h1 style="color:white;"><marquee behavior="scroll" direction="left">Salem Witch Trials </marquee></h1>
+<h2 style="color:white;">Made by Zackory Kervin.</h2>
+</body>
+</html>
+
+ <style>
+body 	{background-color: grey;}
+</style> 
+<style>
+    /* Add some basic styling to the button */
+    .myButtonClass {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  </style>
+
+  <script>
+var button = document.createElement("button");
+button.id = "myButton";
+button.className = "myButtonClass";
+button.textContent = "Click me!";
+
+button.addEventListener("click", function() {
+  var h2 = document.querySelector("h2");
+  h2.textContent = "test";
+});
+
+button.style.position = "fixed";
+button.style.right = "0";
+
+document.body.appendChild(button);
+
+var button = document.createElement("button");
+button.id = "myButton";
+button.className = "myButtonClass";
+button.textContent = "Click me!";
+
+button.addEventListener("click", function() {
+  var h2 = document.querySelector("h2");
+  h2.textContent = "test";
+});
+
+button.style.position = "fixed";
+button.style.left = "0";
+
+document.body.appendChild(button);
+  </script>
