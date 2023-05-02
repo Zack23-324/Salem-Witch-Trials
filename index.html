@@ -53,7 +53,7 @@ button.textContent = "Click me for key people!";
 
 button.addEventListener("click", function() {
   var h2 = document.querySelector("h2");
-  h2.textContent = "Several key individuals played important roles during the Salem witch trials. These include the teenage girls who first claimed to have been possessed by witches - Betty Parris, Abigail Williams, and Ann Putnam Jr. Whose accusations sparked the trials. Another significant figure was Cotton Mather, a Puritan minister and writer who supported the trials and believed in the reality of witchcraft. The most well-known figure, however, was probably Judge Samuel Sewall, who presided over many of the trials and later publicly apologized for his role in the events. Other notable individuals include the accused and the executed, many of whom were women, and who have since become symbols of the injustice and tragedy of the trials.";
+  h2.textContent = "Several key individuals played important roles during the Salem witch trials. These include the teenage girls who first claimed to have been possessed by witches - Betty Parris, Abigail Williams, and Ann Putnam Jr. Whose accusations sparked the trials. Another significant figure was Cotton Mather, a Puritan minister and writer who supported the trials and believed in the reality of witchcraft. The most well-known figure, however, was  Judge Samuel Sewall, who presided over many of the trials and later publicly apologized for his role in the events. Other notable individuals include the accused and the executed, many of whom were women, and who have since become symbols of the injustice and tragedy of the trials.";
 });
 
 button.style.position = "fixed";
@@ -62,20 +62,13 @@ button.style.left = "0";
 document.body.appendChild(button);
   </script>
 
-  <script>
-
-var button = document.createElement("button");
-button.id = "myButton";
-button.className = "myButtonClass";
-button.textContent = "Click me for Timeline!";
-
-button.addEventListener("click", function() {
-  var h2 = document.querySelector("h2");
-  h2.textContent = "";
-});
-
-button.style.position = "fixed";
-button.style.bottom = "0";
-
-document.body.appendChild(button);
-  </script>
+<style>
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		.container img {
+			margin: auto;
+			max-width: 100%;
